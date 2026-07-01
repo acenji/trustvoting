@@ -16,6 +16,10 @@ The entire premise is simple: **replace trust with proof.** Paper ballots are th
 2. **Recorded as cast** — the paper ballot itself is the record; the machine only reads and counts it.
 3. **Counted as recorded** — every total is signed and can be re-checked against the paper by anyone.
 
+## Architecture at a glance
+
+New here? Start with the **[Module Map](docs/module-map.md)** — a one-screen diagram of all 21 crates across the four trust zones and how data flows between them during a real election. Full system design is in [docs/architecture.md](docs/architecture.md).
+
 ## How the code is organized (and licensed)
 
 The system spans four trust zones. Data crosses a zone boundary only on **signed, sealed, hand-carried media** — never over a network. The repository is a Rust [Cargo workspace](Cargo.toml), one crate per module, grouped by zone. It is **dual-licensed by directory**:
