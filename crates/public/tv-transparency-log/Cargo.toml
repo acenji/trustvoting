@@ -1,0 +1,11 @@
+[package]
+name = "tv-transparency-log"
+version = "0.0.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Append-only Merkle log for EDC/SAC commitments and inclusion proofs."
+repository = "https://github.com/acenji/trustvoting"
+publish = false
+
+[dependencies]
+tv-formats = { path = "../../shared/tv-formats" }

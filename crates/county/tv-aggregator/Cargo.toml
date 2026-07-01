@@ -1,0 +1,11 @@
+[package]
+name = "tv-aggregator"
+version = "0.0.0"
+edition = "2021"
+license = "AGPL-3.0-only"
+description = "Import + verify precinct bundles, aggregate totals, build canvass package."
+repository = "https://github.com/acenji/trustvoting"
+publish = false
+
+[dependencies]
+tv-formats = { path = "../../shared/tv-formats" }

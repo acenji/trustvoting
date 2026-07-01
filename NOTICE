@@ -1,0 +1,20 @@
+TrustVoting
+Copyright (c) Scale Campaign LLC and the TrustVoting contributors.
+
+This repository is dual-licensed by directory:
+
+  * DEFAULT: GNU Affero General Public License v3.0 (AGPL-3.0-only) — see LICENSE.
+    Applies to the core system: everything under crates/device/ and crates/county/.
+
+  * Apache License 2.0 — see LICENSE-APACHE.
+    Applies to the public verification layer and shared formats:
+      crates/public/tv-verifier
+      crates/public/tv-transparency-log
+      crates/public/tv-publisher
+      crates/shared/tv-formats
+
+Each source file carries an SPDX-License-Identifier header stating its license.
+When in doubt, the per-file SPDX header is authoritative.
+
+"TrustVoting" and the TrustVoting logo are trademarks of Scale Campaign LLC and
+are NOT licensed for use under either license above.

@@ -1,0 +1,10 @@
+[package]
+name = "tv-formats"
+version = "0.0.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Open, versioned wire schemas/types (EDC, SAC, PVP, CVR, audit entries) shared by the core and any independent verifier."
+repository = "https://github.com/acenji/trustvoting"
+publish = false
+
+[dependencies]

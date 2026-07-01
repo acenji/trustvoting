@@ -1,0 +1,11 @@
+[package]
+name = "tv-os"
+version = "0.0.0"
+edition = "2021"
+license = "AGPL-3.0-only"
+description = "Immutable base OS integration, SELinux policy, and namespace setup."
+repository = "https://github.com/acenji/trustvoting"
+publish = false
+
+[dependencies]
+tv-formats = { path = "../../shared/tv-formats" }

@@ -1,0 +1,11 @@
+[package]
+name = "tv-pollbook"
+version = "0.0.0"
+edition = "2021"
+license = "AGPL-3.0-only"
+description = "Voter check-in, roster management, BAT generation + signing, and slip printing."
+repository = "https://github.com/acenji/trustvoting"
+publish = false
+
+[dependencies]
+tv-formats = { path = "../../shared/tv-formats" }

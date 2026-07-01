@@ -1,0 +1,11 @@
+[package]
+name = "tv-publisher"
+version = "0.0.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Publish verification artifacts to trustvoting.com (one-way; no control channel)."
+repository = "https://github.com/acenji/trustvoting"
+publish = false
+
+[dependencies]
+tv-formats = { path = "../../shared/tv-formats" }

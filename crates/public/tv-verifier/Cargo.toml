@@ -1,0 +1,11 @@
+[package]
+name = "tv-verifier"
+version = "0.0.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Public CLI/library to verify EDC, SAC, PVP, and device records — trust the math."
+repository = "https://github.com/acenji/trustvoting"
+publish = false
+
+[dependencies]
+tv-formats = { path = "../../shared/tv-formats" }

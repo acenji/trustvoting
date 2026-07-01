@@ -1,0 +1,11 @@
+[package]
+name = "tv-printer"
+version = "0.0.0"
+edition = "2021"
+license = "AGPL-3.0-only"
+description = "Ballot rendering and thermal print / paper-path control."
+repository = "https://github.com/acenji/trustvoting"
+publish = false
+
+[dependencies]
+tv-formats = { path = "../../shared/tv-formats" }

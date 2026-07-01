@@ -1,0 +1,11 @@
+[package]
+name = "tv-ballot-ui"
+version = "0.0.0"
+edition = "2021"
+license = "AGPL-3.0-only"
+description = "Touchscreen ballot interface (BMD); requires a valid BAT to start a session."
+repository = "https://github.com/acenji/trustvoting"
+publish = false
+
+[dependencies]
+tv-formats = { path = "../../shared/tv-formats" }

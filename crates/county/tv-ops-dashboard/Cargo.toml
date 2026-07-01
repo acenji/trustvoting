@@ -1,0 +1,11 @@
+[package]
+name = "tv-ops-dashboard"
+version = "0.0.0"
+edition = "2021"
+license = "AGPL-3.0-only"
+description = "Real-time precinct status, alerts, logistics, and anomaly detection (advisory)."
+repository = "https://github.com/acenji/trustvoting"
+publish = false
+
+[dependencies]
+tv-formats = { path = "../../shared/tv-formats" }

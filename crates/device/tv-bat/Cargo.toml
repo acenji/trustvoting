@@ -1,0 +1,11 @@
+[package]
+name = "tv-bat"
+version = "0.0.0"
+edition = "2021"
+license = "AGPL-3.0-only"
+description = "Ballot Activation Token verification: QR scan, HMAC-SHA-384, replay + rate checks."
+repository = "https://github.com/acenji/trustvoting"
+publish = false
+
+[dependencies]
+tv-formats = { path = "../../shared/tv-formats" }
